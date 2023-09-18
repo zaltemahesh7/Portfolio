@@ -55,7 +55,7 @@ nav ul li a:hover {
 }
 
 .name {
-  color: #00FFFF;
+  color: #00ffff;
 }
 
 .leftSection {
@@ -73,21 +73,49 @@ video {
   width: 100%;
   object-fit: cover;
   position: fixed;
+  opacity: 85%;
   z-index: -1;
 }
 
 main hr {
   border: 0;
   height: 0.02rem;
-  background: orange;
+  background: gray;
   margin: 40px 84px;
 }
 
-.secondSction {
+.projects {
   margin: 0 84px;
-/*   background: gray; */
+  /* background: gray; */
   height: 100vh;
   padding: 20px;
   border-radius: 20px;
-/*   color: black; */
+  /* color: black; */
+}
+
+.projects .card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects > h1 {
+  margin-bottom: 10px;
+}
+
+.projects .card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid lavender;
+  border-radius: 10px;
+  padding: 25px;
+  height: 55vh;
+  width: 25%;
+}
+
+.projects .card1:hover {
+  color: black;
+  background: gray;
+  animation-duration: 50s;
+  scale: 1.1;
 }
