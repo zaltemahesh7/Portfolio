@@ -44,20 +44,64 @@
           <div id="element" style="color: #00ff00"></div>
         </div>
         <div class="rightSection">
-          <img src="./media/bg.webp" alt="" />
+          <img src="./media/manbg2.png" alt="" />
         </div>
       </section>
+
       <hr />
+
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="./media/AboutImg.png" alt="" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p id="desc">
+                Passionate web developer with a Bachelor's in Computer Science
+                (BCS), currently pursuing an MCA.Skilled in JavaScript, React
+                JS, Node.js, MongoDB, HTML5, CSS3, Bootstrap, Tailwind CSS, Git,
+                and GitHub.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links" onclick="opentab('skills')">Skill's</p>
+                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents" id="skills">
+                <ul>
+                  <li><span>Web Development</span><br>web app development</li>
+                  <li><span>Web Development</span><br>web app development</li>
+                  <li><span>Web Development</span><br>web app development</li>
+                </ul>
+              </div>
+              <div class="tab-contents active-tab" id="experience">
+                <ul>
+                  <li><span>Sep-2023</span><br>Web Development Intern @ CodSoft</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2022 - Current</span><br>MCA</li>
+                  <li><span>2019 - 2021</span><br>B.C.S</li>
+                  <li><span>2017 -1018</span><br>HSC</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
       <section class="projects">
-        <h1>projects</h1>
+        <h1 class="sub-title">projects</h1>
         <div class="card">
           <div class="card1">
-            <h1>Html(2022-2023)</h1>
+            <h1>Book-keeping-App: (year-2022-23)</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-              obcaecati sapiente debitis excepturi reiciendis asperiores dolor
-              magni accusantium, illum maxime atque, maiores fugit in porro. Cum
-              voluptas vel sunt culpa!
+              Book keeping app built with Node/Express Mongodb/mongoose react, Authentication(jwt)!
             </p>
           </div>
           <div class="card1">
@@ -76,6 +120,74 @@
               obcaecati sapiente debitis excepturi reiciendis asperiores dolor
               magni accusantium, illum maxime atque, maiores fugit in porro. Cum
               voluptas vel sunt culpa!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="contact">
+        <div class="formNew">
+          <div class="mg">
+            <p>
+              <label>Full Name</label>
+              <br />
+              <span class="wpcf7-form-control-wrap" data-name="your-name">
+                <input
+                  size="40"
+                  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                  aria-required="true"
+                  aria-invalid="false"
+                  placeholder="Enter Full Name"
+                  value=""
+                  type="text"
+                  name="your-name"
+                />
+              </span>
+            </p>
+          </div>
+          <div class="mg">
+            <p>
+              <label>Email</label>
+              <br />
+              <span class="wpcf7-form-control-wrap" data-name="your-email">
+                <input
+                  size="40"
+                  class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                  aria-required="true"
+                  aria-invalid="false"
+                  placeholder="Enter Your Email"
+                  value=""
+                  type="email"
+                  name="your-email"
+                />
+              </span>
+            </p>
+          </div>
+          <div class="mg">
+            <p>
+              <label>Phone Number</label>
+              <br />
+              <span class="wpcf7-form-control-wrap" data-name="phoneNumber">
+                <input
+                  class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number"
+                  aria-invalid="false"
+                  placeholder="Phone Number"
+                  value=""
+                  type="number"
+                  name="phoneNumber"
+                />
+              </span>
+            </p>
+          </div>
+          <div class="btnblue">
+            <p>
+              <input
+                class="wpcf7-form-control wpcf7-submit has-spinner"
+                type="submit"
+                value="Send Message"
+              />
             </p>
           </div>
         </div>
