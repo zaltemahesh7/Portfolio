@@ -261,3 +261,14 @@ input[type=button], input[type=submit] {
     font-weight: 600;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  background-color: #4d4c4c;
+}
+
+.footer ul li {
+  list-style: none;
+}
