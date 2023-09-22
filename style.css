@@ -107,7 +107,7 @@ main hr {
 }
 
 .tab-links::after {
-  content: '';
+  content: "";
   width: 0;
   height: 3px;
   background: #ff004f;
@@ -180,10 +180,10 @@ main hr {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 90px;
+  margin: 0 70px;
 }
 
-.about-col-1 img{
+.about-col-1 img {
   width: 100%;
   height: 70vh;
   flex-basis: 35%;
@@ -241,24 +241,25 @@ input.wpcf7-text {
   box-sizing: border-box;
 }
 .formNew input {
-  border: 1px solid #3563B8;
+  border: 1px solid #3563b8;
   height: 42px;
   border-radius: 5px;
-  background: #F3F6FB;
+  background: #f3f6fb;
   padding-left: 15px;
   box-sizing: border-box;
   padding-right: 15px;
   width: 100%;
 }
-input[type=button], input[type=submit] {
-    padding: 7px 24px;
-    line-height: 1.6;
-    background-color: #78C8Ce;
-    color: #FFF;
-    border: none;
-    border-radius: 2px;
-    outline: 0;
-    font-weight: 600;
+input[type="button"],
+input[type="submit"] {
+  padding: 7px 24px;
+  line-height: 1.6;
+  background-color: #78c8ce;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  outline: 0;
+  font-weight: 600;
 }
 
 .footer {
