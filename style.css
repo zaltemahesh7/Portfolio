@@ -163,6 +163,7 @@ main hr {
   justify-content: space-around;
   border: 1px solid lavender;
   border-radius: 10px;
+  overflow: hidden;
   padding: 25px;
   height: 55vh;
   width: 25%;
