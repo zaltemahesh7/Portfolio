@@ -134,70 +134,12 @@
 
       <section class="contact">
         <h1 class="sub-title">Contact Me</h1>
-
-        <div class="formNew">
-          <div class="mg">
-            <p>
-              <label>Full Name</label>
-              <br />
-              <span class="wpcf7-form-control-wrap" data-name="your-name">
-                <input
-                  size="40"
-                  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                  aria-required="true"
-                  aria-invalid="false"
-                  placeholder="Enter Full Name"
-                  value=""
-                  type="text"
-                  name="your-name"
-                />
-              </span>
-            </p>
-          </div>
-          <div class="mg">
-            <p>
-              <label>Email</label>
-              <br />
-              <span class="wpcf7-form-control-wrap" data-name="your-email">
-                <input
-                  size="40"
-                  class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
-                  aria-required="true"
-                  aria-invalid="false"
-                  placeholder="Enter Your Email"
-                  value=""
-                  type="email"
-                  name="your-email"
-                />
-              </span>
-            </p>
-          </div>
-          <div class="mg">
-            <p>
-              <label>Phone Number</label>
-              <br />
-              <span class="wpcf7-form-control-wrap" data-name="phoneNumber">
-                <input
-                  class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number"
-                  aria-invalid="false"
-                  placeholder="Phone Number"
-                  value=""
-                  type="number"
-                  name="phoneNumber"
-                />
-              </span>
-            </p>
-          </div>
-          <div class="btnblue">
-            <p>
-              <input
-                class="wpcf7-form-control wpcf7-submit has-spinner"
-                type="submit"
-                value="Send Message"
-              />
-            </p>
-          </div>
-        </div>
+        <form action="">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" id="" cols="" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
       </section>
 
       <section class="footer">
